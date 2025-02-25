@@ -76,6 +76,11 @@ app.delete('/datapost/:id', (req, res)=>{
     //console.log("data delete successfully..")
 })
  
+
+app.listen(5001, ()=>{
+    console.log("my server is running on 5001")
+})
+
 /* ---- node server create----
     const servers = http.createServer((req, res)=>{
 
@@ -84,7 +89,3 @@ app.delete('/datapost/:id', (req, res)=>{
     res.end("hello node") 
 
 })*/
-
-app.listen(5000, ()=>{
-    console.log("my server is running on 5000")
-})
